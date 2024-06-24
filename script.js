@@ -68,9 +68,9 @@ function cekKhadam() {
     const randomKhadam = khadams[Math.floor(Math.random() * khadams.length)];
 
     if (name && dob) {
-        document.getElementById('result').innerText = `Khadam Kamu: ${randomKhadam}`;
+        document.getElementById('result').innerText = `Kodam Kamu: ${randomKhadam}`;
     } else {
-        document.getElementById('result').innerText = 'Please fill in all fields.';
+        document.getElementById('result').innerText = 'Isi yang bener dulu ♡.';
     }
 }
 
